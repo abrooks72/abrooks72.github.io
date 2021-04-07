@@ -137,7 +137,7 @@
   // Initiate venobox (lightbox feature used in portofilo)
   $(document).ready(function () {
     $(".venobox").venobox();
-    emailjs.init("user_T6IvDOuyKIppdf3Lx5Iug");
+    emailjs.init("user_W1ESLzAZVuVoX0KBFOXrt");
   });
 
   document.getElementById("contact-form")?.addEventListener("submit", function (event) {
@@ -148,7 +148,7 @@
     // generate a five digit number for the contact_number variable
     // this.contact_number.value = (Math.random() * 100000) | 0;
     // these IDs from the previous steps
-    emailjs.sendForm("service_1wl192m", "template_or2v66o", this).then(
+    emailjs.sendForm("service_agcranz", "template_gpptcr5", this).then(
       function () {
         $(".contact-loading").addClass("d-none");
         $(".contact-success").removeClass("d-none");
